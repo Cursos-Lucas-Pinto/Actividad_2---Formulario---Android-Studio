@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_confirmar_datos_paddingLeft"
+    android:paddingRight="@dimen/activity_confirmar_datos_paddingRight"
+    tools:context=".ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvConfirmarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConfirmarDatos_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/tvConfirmarDatos_textSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etConfNombre"
+        android:layout_below="@id/tvConfirmarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tvConfNombre_layout_marginTop"
+        android:text="NOMBRE"
+        android:textSize="@dimen/tvConfNombre_textSize"/>
+
+    <LinearLayout
+        android:id="@+id/lytFechaNac"
+        android:layout_below="@+id/etConfNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvConfFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvConfFechaNac_text"
+            android:textSize="@dimen/tvConfFechaNac_textSize"/>
+
+        <TextView
+            android:id="@+id/etConfFechaNac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FECHA NACIMIENTO"
+            android:textSize="@dimen/etConfFechaNac_textSize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lytFechaNac">
+
+        <TextView
+            android:id="@+id/tvConfTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvConfTelefono_text"
+            android:textSize="@dimen/tvConfTelefono_textSize"
+            />
+
+        <TextView
+            android:id="@+id/etConfTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TELEFONO"
+            android:textSize="@dimen/etConfTelefono_textSize"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytEmail"
+        android:layout_below="@id/lytTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tvConfEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvConfEmail_text"
+            android:textSize="@dimen/tvConfEmail_textSize"
+            />
+
+        <TextView
+            android:id="@+id/etConfEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textSize="@dimen/etConfEmail_textSize"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytDescripcion"
+        android:layout_below="@id/lytEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tvConfDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvConfDescripcion_text"
+            android:textSize="@dimen/tvConfDescripcion_textSize"
+            />
+
+        <TextView
+            android:id="@+id/etConfDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPCION"
+            android:textSize="@dimen/etConfDescripcion_textSize"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditarDatos"
+        android:layout_below="@id/lytDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnEditarDatos_marginTop"
+        android:text="@string/btnEditarDatos_text"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

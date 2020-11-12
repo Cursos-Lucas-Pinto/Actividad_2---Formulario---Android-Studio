@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_main_paddingLeft"
+    android:paddingRight="@dimen/activity_main_paddingRight"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:hint="@string/etNombreCompleto_hint"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/tvFechNac"
+        android:layout_below="@id/etNombreCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tvFechaNac_layout_marginTop"
+        android:text="@string/tvFechaNac_text"
+        android:textSize="@dimen/tvFechaNac_textSize"
+        />
+
+    <DatePicker
+        android:id="@+id/dpFechaNac"
+        android:layout_below="@+id/tvFechNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_below="@+id/dpFechaNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etTelefono_hint"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="@string/etEmail_hint"
+        />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmail"
+        android:text="@string/tvDescripcion_text"
+        android:textSize="@dimen/tvDescripcion_textSize"
+        />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_below="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_below="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSiguiente_text"
+        />
+
+</RelativeLayout>

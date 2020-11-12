@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_main_paddingLeft">25dp</dimen>
+    <dimen name="activity_main_paddingRight">25dp</dimen>
+
+    <dimen name="tvFechaNac_layout_marginTop">10dp</dimen>
+
+    <dimen name="tvDescripcion_textSize">18sp</dimen>
+    <dimen name="tvFechaNac_textSize">18sp</dimen>
+
+    <dimen name="activity_confirmar_datos_paddingLeft">25dp</dimen>
+    <dimen name="activity_confirmar_datos_paddingRight">25dp</dimen>
+
+    <dimen name="tvConfirmarDatos_textSize">35sp</dimen>
+
+    <dimen name="tvConfNombre_textSize">22sp</dimen>
+    <dimen name="tvConfNombre_layout_marginTop">25dp</dimen>
+
+    <dimen name="tvConfFechaNac_textSize">22sp</dimen>
+
+    <dimen name="etConfFechaNac_textSize">22sp</dimen>
+
+    <dimen name="tvConfTelefono_textSize">22sp</dimen>
+
+    <dimen name="etConfTelefono_textSize">22sp</dimen>
+
+    <dimen name="tvConfEmail_textSize">22sp</dimen>
+
+    <dimen name="etConfEmail_textSize">22sp</dimen>
+
+    <dimen name="tvConfDescripcion_textSize">22sp</dimen>
+
+    <dimen name="etConfDescripcion_textSize">22sp</dimen>
+
+    <dimen name="btnEditarDatos_marginTop">25dp</dimen>
+
+</resources>

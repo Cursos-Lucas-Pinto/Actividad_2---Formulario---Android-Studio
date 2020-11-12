@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Formulario</string>
+
+    <string name="etNombreCompleto_hint">Nombre completo</string>
+
+    <string name="tvFechaNac_text">Fecha de Nacimiento</string>
+
+    <string name="etTelefono_hint">Telefono</string>
+
+    <string name="etEmail_hint">Email</string>
+
+    <string name="tvDescripcion_text">Descripción Contacto</string>
+
+    <string name="btnSiguiente_text">Siguiente</string>
+
+    <string name="tvConfirmarDatos_text">Confirmar Datos</string>
+
+    <string name="tvConfFechaNac_text">Fecha de Nacimiento: </string>
+
+    <string name="tvConfTelefono_text">Tel: </string>
+
+    <string name="tvConfEmail_text">Email: </string>
+
+    <string name="tvConfDescripcion_text">Descripción: </string>
+
+    <string name="btnEditarDatos_text">Editar Datos</string>
+</resources>
